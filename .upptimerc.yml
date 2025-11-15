@@ -1,12 +1,14 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: ohmlaws # Your GitHub organization or username, where this repository lives
+repo: Upptime # The name of this repository
 
 sites:
   - name: Google
     url: https://www.google.com
   - name: Wikipedia
     url: https://en.wikipedia.org
+  - name: Ohmlaws
+    url: https://ohmlaws.github.io 
   - name: Hacker News
     url: https://news.ycombinator.com
   - name: Test Broken Site
