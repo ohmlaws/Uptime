@@ -11,11 +11,7 @@ sites:
     url: https://ohmlaws.github.io/secondyear/ 
   - name: Resistor Hub
     url: https://roniui.github.io/resistor/
-  - name: IPv6 test [http]
-    url: ohmlaws.github.io
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  
 
 
 status-website:
