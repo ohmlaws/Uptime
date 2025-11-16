@@ -11,9 +11,14 @@ sites:
     url: https://ohmlaws.github.io/secondyear/ 
   - name: Resistor Hub
     url: https://roniui.github.io/resistor/
-  - name: IPv6 test
+  - name: IPv6 test [http]
     url: ohmlaws.github.io
-    port: 153
+    port: 80
+    check: "tcp-ping"
+    ipv6: true
+  - name: IPv6 test [https]
+    url: ohmlaws.github.io
+    port: 443
     check: "tcp-ping"
     ipv6: true
 
@@ -22,13 +27,13 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /Uptime
-  logoUrl: https://raw.githubusercontent.com/ohmlaws/ohmlaws.github.io/refs/heads/main/assets/img/favicons/favicon.svg
+  logoUrl: https://raw.githubusercontent.com/ohmlaws/ohmlaws.github.io/refs/heads/main/assets/img/avatar.png
   name: ohmlaws
   introTitle: "[OhmLaws](https://ohmlaws.github.io/) Site Uptime Stats"
 #  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Home
-      href: /
+      href: https://ohmlaws.github.io
 
   favicon: https://raw.githubusercontent.com/ohmlaws/ohmlaws.github.io/refs/heads/main/assets/img/favicons/favicon-96x96.png
   faviconSvg: https://raw.githubusercontent.com/ohmlaws/ohmlaws.github.io/refs/heads/main/assets/img/favicons/favicon.svg
