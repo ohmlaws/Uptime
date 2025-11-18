@@ -34,6 +34,16 @@ status-website:
 i18n:
   footer: This page is powered by [Upptime](https://upptime.js.org)
   locale: en-IN
+
+workflowSchedule:
+  graphs: "0 3,15 * * *"        # Runs at 3 AM and 3 PM
+  staticSite: "0 3,15 * * *"    # Build site at 3 AM and 3 PM
+
+  responseTime: "0 23 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
   # ...
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
