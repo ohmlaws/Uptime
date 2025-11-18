@@ -11,7 +11,8 @@ sites:
     url: https://ohmlaws.github.io/secondyear/ 
   - name: Resistor Hub
     url: https://roniui.github.io/resistor/
-  
+  - name: ohmlaw
+    url: https://ohmlaws.com/
 
 
 status-website:
