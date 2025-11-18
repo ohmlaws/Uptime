@@ -31,6 +31,9 @@ status-website:
   favicon: https://raw.githubusercontent.com/ohmlaws/ohmlaws.github.io/refs/heads/main/assets/img/favicons/favicon-96x96.png
   faviconSvg: https://raw.githubusercontent.com/ohmlaws/ohmlaws.github.io/refs/heads/main/assets/img/favicons/favicon.svg
 
-
+i18n:
+  footer: This page is powered by [Upptime](https://upptime.js.org)
+  locale: en-IN
+  # ...
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
