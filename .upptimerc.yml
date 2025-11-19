@@ -36,14 +36,15 @@ i18n:
   locale: en-IN
 
 workflowSchedule:
-  graphs: "0 3,15 * * *"        # Runs at 3 AM and 3 PM
-  staticSite: "0 3,15 * * *"    # Build site at 3 AM and 3 PM
+  uptime: "*/5 * * * *"                # always unchanged
 
-  responseTime: "0 23 * * *"
-  summary: "0 0 * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
-  uptime: "*/5 * * * *"
+  responseTime: "0 10,22 * * *"        # 3:30 AM/PM IST
+  summary: "1 10,22 * * *"       # run 5 minutes after responseTime
+  graphs: "2 10,22 * * *"      # run 10 minutes after responseTime
+  staticSite: "3 10,22 * * *"      # final build & deploy after everything
+  
+  updateTemplate: "0 0 * * *"          # 5:30 AM IST
+  updates: "0 3 * * *"          # 8:30 AM IST
   # ...
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
