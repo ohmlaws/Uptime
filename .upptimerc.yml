@@ -27,7 +27,7 @@ status-website:
   navbar:
     - title: Home
       href: https://ohmlaws.github.io
-  css: "body { text-shadow: 0px 0px 6px rgba(0,0,0,1) }"
+  css: "@media (prefers-color-scheme: dark) { body { text-shadow: 0px 0px 6px rgba(0,0,0,1) } }"
   
 
   favicon: https://raw.githubusercontent.com/ohmlaws/ohmlaws.github.io/refs/heads/main/assets/img/favicons/favicon-96x96.png
